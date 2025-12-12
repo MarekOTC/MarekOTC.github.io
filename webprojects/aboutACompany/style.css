@@ -1,0 +1,68 @@
+.slogan {
+    font-family: "Inspiration", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.companyName {
+    font-family: "Frijole", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px;
+}
+
+#nuclear-image:hover {
+    filter: invert(100%);
+}
+
+body {
+    margin: 0px;
+    background: #B08D00;
+}
+
+header {
+    background: #B15300;
+}
+
+nav {
+    background: #48381F;
+}
+
+nav a {
+    color: white;
+}
+
+nav a:hover {
+    color: blanchedalmond;
+}
+
+main {
+    background: #00FF15;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.product-display {
+    margin: 20px 50px;
+    background: #4F6144;
+    color: white;
+    padding: 10px 5px 100px;
+}
+
+.float-left {
+    float: left;
+    margin: 0 15px 15px 0;
+}
+
+.float-right {
+    float: right;
+    margin: 0 15px 15px 0;
+}
+
+.product-pic {
+    border-width: 15px;
+    border-color: black;
+    border-style: double;
+    height: 150px;
+    width: 150px;
+}

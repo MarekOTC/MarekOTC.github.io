@@ -1,0 +1,75 @@
+.sticky-nav {
+    position: sticky;
+    top: 0;
+    background: #E2FCFF;
+    padding: 10px;
+    z-index: 3;
+}
+
+.article {
+    position: relative;
+    /* reference for the absolute child */
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #AEDBF0e2;
+    color: black;
+}
+
+.callout {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: gold;
+    padding: 6px 10px;
+}
+
+.fixed-box {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: tomato;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.float-left {
+    float: left;
+    margin: 0 15px 15px 0;
+}
+
+.content {
+    display: flow-root;
+    /* modern replacement for clearfix */
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #AEDBF0e2;
+    color: black;
+}
+
+body {
+    background-image: url("images/20250614_215701.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 5%;
+    background-attachment: fixed;
+}
+
+img {
+    height: 250px;
+    width: 400px;
+}
+
+nav a {
+    color: black;
+}
+
+main {
+    background-color: rgba(36, 62, 125, 0.888);
+    padding: 5px;
+    color: white;
+}
+
+footer {
+    color: white;
+}
